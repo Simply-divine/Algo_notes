@@ -10,12 +10,12 @@ Topics to be covered :
 
 # Ammortized Analysis
 
+[![lecture source](http://img.youtube.com/vi/3MpzavN3Mco/0.jpg)](http://www.youtube.com/watch?v=3MpzavN3Mco)
 - occasional operation is slow but overall time complexity is fast.
 - Examples :
 	- Hash Table 
 	- Splay tree
 	- Disjoint Set
-[![lecture source](http://img.youtube.com/vi/3MpzavN3Mco/0.jpg)](http://www.youtube.com/watch?v=3MpzavN3Mco)
 
 ### Two pointers method
 - Two pointers to iterate the array values.
