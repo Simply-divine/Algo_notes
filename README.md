@@ -1,4 +1,4 @@
-![](https://github.com/Simply-divine/Algo_notes/blob/master/images/algonoteslogo.png)
+![](https://github.com/Simply-divine/Algo_notes/blob/master/images/logo.png)
 
 
 Topics to be covered :
