@@ -1,4 +1,4 @@
-# Algo_Notes
+# Algo_Notes![](https://github.com/Simply-divine/Algo_notes/blob/master/images/algonoteslogo.png)
 
 
 Topics to be covered :
