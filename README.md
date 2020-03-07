@@ -49,7 +49,31 @@ x = 8
 
 The required sum has been found.
 
+2. #### Two sum problem:
+	 *we  are given an array of integers and a sum x. We have to find if it is possible to get two array values which sum to x.*
 
+ - For example, lets say x = 15.
 
+         1 3 5 7 9 6 10
+         
+         The answer is yes because it is possible to select 9 and 6 which sum to 15.
+- Complexity : O(nlogn){for sort}+O(n){for two pointer method shown below} = O(nlogn) 
+##### Algorithm steps:
+
+1. Sort the array.
+2. Initialize i with the first value and j with the last value.
+						
+						1 3 5 6 7 9 10
+					    i            j
+3. Move i from left to right and move j backwards untill the sum of i and j elements become atmost x.
+    -  Here i moves from left to right untill it reaches 6.
+			    
+					    1 3 5 6 7 9 10
+					          i      j 
+	- As the sum exceeds 15 the value of j decreases.
+						
+						1 3 5 6 7 9 10
+						      i	  j
+4. The sum is now 15. Hence the algorithm ends.		          
 
 
