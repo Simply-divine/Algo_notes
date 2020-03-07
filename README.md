@@ -5,7 +5,7 @@ Topics to be covered :
 
 1. Ammortized analysis.
 2. Range Queries
-
+3. More topics will be updated soon..
 
 
 # Ammortized Analysis
