@@ -64,7 +64,8 @@ The required sum has been found.
 2. Initialize i with the first value and j with the last value.
 						
 						1 3 5 6 7 9 10
-					    i            j
+					    	i            j
+	
 3. Move i from left to right and move j backwards untill the sum of i and j elements become atmost x.
     -  Here i moves from left to right untill it reaches 6.
 			    
@@ -75,5 +76,28 @@ The required sum has been found.
 						1 3 5 6 7 9 10
 						      i	  j
 4. The sum is now 15. Hence the algorithm ends.		          
+
+
+# Range Queries
+
+
+## Segment tree
+[Source](https://cp-algorithms.com/data_structures/segment_tree.html)
+
+### Simplest form of segment tree
+
+The idea is presented below:
+1. Store the sum of elements of whole array.
+2. Split array into two halves and store the sum of each half.
+3. Split these arrays into halves and repeat the process untill segments reach the size of 1. So now, we have the sum of these selected segments.
+
+The segment tree is named so because the structure defined above forms a binary tree where root of the vertex is a[0 .. n-1] and each vertex has exactly two child vertices.![segment tree visual representation](https://raw.githubusercontent.com/e-maxx-eng/e-maxx-eng/master/img/sum-segment-tree.png)
+
+The height of segment tree is O(logn).
+
+### Construction:
+- Start from the leaf nodes. The corresponding segments will have the same values as leaf nodes.
+- Using leaf nodes previous nodes can be calculated. And using those we can calculate previous ones, and repeat the procedure until we reach root vertex.
+- The time complexity of such construction is O(n).
 
 
